@@ -16,4 +16,9 @@ public class NumberGuesser {
             return "correct!";
         }
     }
+
+    public static void main(String[] args) {
+        NumberGuesser game = new NumberGuesser(42);
+        System.out.println(game.guess(30));
+    }
 }
